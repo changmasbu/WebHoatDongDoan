@@ -1,0 +1,79 @@
+:root{
+    --bg1 :#ffb0d4;
+    --bg2 :#b15ae0;
+    --text :#5a5de0;
+}
+*{
+    margin: 0;
+    padding:0 ;
+    outline: none;
+}
+a{
+    text-decoration: none;
+
+}
+.container {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height:100vh;
+    /* background: rgb(251,120,178); */
+    background: linear-gradient(to bottom right ,var(--bg1),var(--bg2));
+}
+.form-login {
+    width: 450px;
+    height: 550px;
+    background: #fff;
+    border-radius:10px ;
+    padding: 40px 30px;
+
+}
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 15px auto;
+}
+.success {
+    background: #D4EDDA;
+    color: #40754C;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+ }
+.form-login button{
+    height: 35px;
+    width: 60%;
+    margin-bottom: 30px;
+    background: #b15ae0;
+    border-radius :15px;
+    border: none;
+    /* linear-gradient(to bottom right, var(--text)); */
+}
+.form-text{
+    margin-top: 45px ;
+    margin-bottom: 35px;
+    position: relative;
+
+}
+.form-text input{
+   
+    width: 240px;
+    height: 35px;
+    border:none;
+    border-bottom: 2px solid #ccc ;
+    cursor: pointer;
+    bottom: 1px;
+}
+
+.form-text label{
+    position :absolute;
+    left: 0px;
+    cursor: pointer;
+    bottom: 10px;
+}
